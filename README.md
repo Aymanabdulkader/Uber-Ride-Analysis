@@ -3,6 +3,52 @@
 This project focuses on analyzing Uber ride data to uncover trends in ride requests, cancellations, trip durations, and customer behaviors.
 It involves a complete data analytics pipeline — from raw data to actionable insights — using Python, Pandas, NumPy, Matplotlib, and Seaborn.
 
+Uber Ride Data Analysis – From Cleaning to Insights
+This project focuses on analyzing Uber ride data to uncover trends in ride requests, cancellations, trip durations, and customer behaviors.
+It involves a complete data analytics pipeline — from raw data to actionable insights — using Python, Pandas, NumPy, Matplotlib, and Seaborn.
+
+Key Steps in the Project
+Data Cleaning & Preprocessing
+
+Handled missing values using logical imputation and removal strategies.
+
+Standardized column names for consistency.
+
+Converted timestamp columns to proper datetime formats.
+
+Detected and treated outliers in cost-related fields using the IQR method.
+
+Exploratory Data Analysis (EDA)
+
+Visualized trip request trends by day and hour.
+
+Analyzed trip status distribution and payment method patterns.
+
+Studied trip cost distributions and calculated trip durations.
+
+Feature Engineering
+
+Created new features such as total_cost, ride_delay, and date/time breakdowns.
+
+Classified trips into cancellation reasons (No Cabs, Passenger, Driver, Completed).
+
+Insights & Visual Analysis
+
+Identified peak demand times and days for Uber rides.
+
+Studied cancellation trends by day, hour, and weather conditions.
+
+Examined incomplete rides and their reasons using stacked histograms and pie charts.
+
+Tools & Technologies
+Python – Data processing and analysis
+
+Pandas / NumPy – Data wrangling and feature creation
+
+Matplotlib / Seaborn – Data visualization
+
+Jupyter Notebook – Interactive analysis
+
 # Step 1: Load the Dataset
 
 import pandas as pd
